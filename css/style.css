@@ -4,7 +4,7 @@
 
 /* Start Body */
 body {
-    color: black;
+    color: #000000;
     font-family: Lato, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     list-style: height 1.5em;
@@ -45,7 +45,7 @@ body {
 /* Start Anchor / Hyperlink */
 a:link,
 a:visited {
-    color: rgb(74, 77, 248);
+    color: #7841df;
     text-decoration: none;
 }
 a:hover,
@@ -258,9 +258,10 @@ input[type="submit"],
 
 /* Start Menu Sekunder */
 .menu-sekunder {
-    background-color: #f6f8fa;
-    border-bottom: 1px solid #eaecef;
-    border-top: 1px solid #eaecef;
+    color: white;
+    background-color: #3a473c;
+    border-bottom: 1px solid #0e67ec;
+    border-top: 1px solid  #0e67ec;
     overflow: auto;
     padding: 10px 0;
 }
