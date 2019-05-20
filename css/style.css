@@ -57,8 +57,9 @@ a:active {
 
 /* Start Menu Primer */
 .menu-primer ul {
-    background-color: rgb(12, 9, 9);
+    background-color: #000000;
     border-radius: 4px;
+    text-align: center;
     box-shadow: 
         0 3px 5px -1px rgba(0,0,0,.2),
         0 6px 10px 0 rgba(0,0,0,.14),
@@ -81,13 +82,13 @@ a:active {
 }
 
 .menu-primer a:hover {
-    background-color: #f7f7f7;
+    background-color: #f3fca2;
     color: #000000;
     text-decoration: none;
 }
 
 .menu-primer .active {
-    background-color: #ffffff;
+    background-color: #e1e43c;
     color: #333333;
     text-decoration: none;
 }
@@ -120,8 +121,8 @@ h6 {
 
 /* Start Jumbotron */
 .jumbotron {
-    background-color: #f6f8fa;
-    border: 1px solid #eaecef;
+    background-color: #edfcf5;
+    border: 1px solid #79abf5;
     border-radius: 4px;
     padding: 20px 0;
 }
@@ -169,8 +170,8 @@ h6 {
 
 /* Start Box */
 .box-heading {
-    background-color: #f6f8fa;
-    border: 1px solid #d1d5da;
+    background-color: #56e67a;
+    border: 1px solid #768cee;
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
@@ -182,11 +183,16 @@ h6 {
 }
 
 .box-isi {
-    background-color: #dff7ec;
-    border: 1px solid #76ee9e;
+    background-color: #e6fcf3;
+    border: 1px solid #768cee;
     border-top: 0;
     margin: 0;
+    /* height: 150px; */
     padding: 10px 20px;
+}
+
+.tes {
+  height: 150px;
 }
 /* end Box */
 
@@ -200,13 +206,13 @@ h6 {
 
 /* Start Layanan Table */
 .layanan-table {
-    border: 1px solid #d1d5de;
+    border: 1px solid #adc449;
     border-collapse: collapse;
     margin: auto;
     width: 100%;
 }
 .layanan-table th {
-    background-color: #d1d5de;
+    background-color: #dff3d9;
 }
 .layanan-table td {
     text-align: center;
